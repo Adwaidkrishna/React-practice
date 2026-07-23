@@ -1,11 +1,11 @@
 import Counter from "./counter"
 
-function App() {
+function App (){
   return (
-    <>
-      <Counter />
-    </>
+    <div>
+      <Counter/>
+    </div>
   )
 }
 
-export default App  
+export default App

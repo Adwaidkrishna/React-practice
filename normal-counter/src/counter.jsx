@@ -11,6 +11,7 @@ function Counter (){
             
             <button onClick={()=>   {if (count<10)  setCount(count+1)}}>INC</button>
             <button onClick={()=>{setCount(count-1)}}>DEC</button>
+            <button onClick={()=>{setCount(0)}}>Reset</button>
 
             <h2>{count}</h2>
 
